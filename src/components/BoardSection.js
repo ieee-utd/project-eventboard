@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
-import { 
-    Container,
-    Row, 
-    Col,
-    Card,
-    CardBody,
-    CardTitle,
-    CardText
-} from 'reactstrap';
+import { Container,Row, Col,Card,CardBody,CardTitle,CardText,CardImg} from 'reactstrap';
 import '../styles/BoardSection.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-class PortfolioSection extends Component {
+class BoardSection extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            projects: [],
+            events: [],
             isLoading: false,
             error: null
         };
@@ -24,7 +16,7 @@ class PortfolioSection extends Component {
     componentDidMount() {
         this.setState({ isLoading: true });
 
-        fetch('https://api.github.com/users/richardxia15/repos')
+        fetch('https://api.github.com/users/saloniss/repos')
         .then(response => {
             if(response.ok) {
                 return response.json();
@@ -33,7 +25,7 @@ class PortfolioSection extends Component {
                 throw new Error("something went wrong...")
             }
         }).then(data => {
-            this.setState({projects: data, isLoading: false});
+            this.setState({events: data, isLoading: false});
 
         }).catch(error => {
             this.setState({error: error, isLoading: false})
@@ -41,12 +33,12 @@ class PortfolioSection extends Component {
     }
 
     render() {
-        const { projects, isLoading, error } = this.state;
+        const { events, isLoading, error } = this.state;
 
         if(isLoading) {
             return (
                 <div>
-                    loading...
+                    Loading...
                 </div>
             );
         }
@@ -58,18 +50,18 @@ class PortfolioSection extends Component {
             );
         }
         return (
-            <div className="Portfolio-section">
+            <div className="Board-section">
                 <div className="block-padding grey-section">
                     <Container>
                         <Row className="row-padding">
                             <Col sm={{ size: 6, offset: 3 }}>
-                                <PortfolioCardTitle/>
+                                <BoardCardTitle/>
                             </Col>
                         </Row>
                         <Row className="row-padding">
-                        { projects.map(function (project, i) {
+                        { events.map(function (project, i) {
                             return (
-                                <GithubCard project={ project } key={ i }/>
+                                <CalendarCard project={ project } key={ i }/>
                             );
                         }.bind(this))}
                         </Row>
@@ -80,7 +72,7 @@ class PortfolioSection extends Component {
     }
 }
 
-function PortfolioCardTitle(props) {
+function BoardCardTitle(props) {
     return (
         <div>
             <h2>Events</h2>
@@ -88,15 +80,22 @@ function PortfolioCardTitle(props) {
     );
 }
 
-function GithubCard(props) {
+//For project name : {props.project.name}
+//For project desc : {props.project.description}
+//For href : {props.project.html_url}
+function CalendarCard(props) {
     return (
         <Col sm={{ size: 4 }} className="card-padding">
-            <a href={props.project.html_url} target="_blank">
-                <Card className="portfolio-card">
+            <a href="https://github.com/ieee-utd/project-eventboard" target="_blank">
+                <Card className="board-card">
                     <CardBody>
-                        <CardTitle>{props.project.name}</CardTitle>
-                        <CardText>{props.project.description}</CardText>
+                        <CardTitle>Event Title</CardTitle>
+                        <CardText>Description</CardText>
+                        <CardText>Location</CardText>
+                        <CardText>Time</CardText>
+                        
                     </CardBody>
+                    <CardImg top width="1%" alt="Logo" />
                 </Card>
             </a>
        </Col>
@@ -104,4 +103,4 @@ function GithubCard(props) {
 }
 
 
-export default PortfolioSection;
+export default BoardSection;

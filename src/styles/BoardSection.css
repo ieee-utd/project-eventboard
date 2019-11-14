@@ -1,4 +1,4 @@
-/* /src/styles/PortfolioSection.js */
+/* /src/styles/BoardSection.js */
 h2 {
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -24,12 +24,12 @@ h4 {
     font-size: 22px;
 }
 
-.Portfolio-section {
+.Board-section {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.portfolio-card {
+.board-card {
     height: 200px;
 }
 
@@ -46,7 +46,7 @@ i {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-card:hover {
+.board-card:hover {
     background-color: #f5f5f5;
     
 }
