@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Container,Row, Col,Card,CardBody,CardTitle,CardText,CardImg} from 'reactstrap';
-import '../styles/BoardSection.css';
+import '../styles/EventsSection.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-class BoardSection extends Component {
+class EventsSection extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -75,7 +75,7 @@ class BoardSection extends Component {
 function BoardCardTitle(props) {
     return (
         <div>
-            <h2>Events</h2>
+            <h2>Announcements</h2>
         </div>
     );
 }
@@ -85,17 +85,12 @@ function BoardCardTitle(props) {
 //For href : {props.project.html_url}
 function CalendarCard(props) {
     return (
-        <Col sm={{ size: 4 }} className="card-padding">
+        <Col sm={{ size: 3 }} className="card-padding">
             <a href="https://github.com/ieee-utd/project-eventboard" target="_blank">
                 <Card className="board-card">
                     <CardBody>
-                        <CardTitle>Event Title</CardTitle>
-                        <CardText>Description</CardText>
-                        <CardText>Location</CardText>
-                        <CardText>Time</CardText>
-                        
+                        <CardTitle>Content</CardTitle>
                     </CardBody>
-                    <CardImg top width="1%" alt="Logo" />
                 </Card>
             </a>
        </Col>
@@ -103,4 +98,4 @@ function CalendarCard(props) {
 }
 
 
-export default BoardSection;
+export default EventsSection;
