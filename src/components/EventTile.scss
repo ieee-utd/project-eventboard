@@ -1,0 +1,44 @@
+.event-tile {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    background: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3.5rem 2rem 1.5rem;
+    justify-items: baseline;
+    .title {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-weight: 400;
+        font-size: 1.25em;
+    }
+    .logo {
+        grid-column: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: white;
+        }
+    }
+    .time, .location {
+        font-weight: 700;
+        color: rgba($color: black, $alpha: 0.6);
+    }
+    .time {
+        .later, now {
+            height: 100%;
+            line-height: 2rem;
+        }
+        .now {
+            font-size: 1.5em;
+            color: red;
+        }
+    }
+}
