@@ -1,0 +1,9 @@
+.event-tile-tall {
+    display: flex;
+    flex-direction: column;
+    .description {
+        padding: calc(8rem/12) 1rem;
+        background: #7A8898;
+        color: white;
+    }
+}

@@ -1,0 +1,14 @@
+ #event-grid {
+    display: flex;
+    overflow-y: auto;
+    margin-top: 0;
+    .inner {
+        flex-grow: 1;
+        display: inline-grid;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+        gap: 1rem;
+        .event-tile {
+            height: 9rem;
+        }
+    }
+}
