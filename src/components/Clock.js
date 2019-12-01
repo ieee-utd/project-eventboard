@@ -32,7 +32,7 @@ class Clock extends Component {
     render() {
         const thisMoment = moment(this.state.date);
         const dateString = thisMoment.format("ddd MMM DD");
-        const timeString = thisMoment.format("HH:mm:ss A"); 
+        const timeString = thisMoment.format("hh:mm:ss A"); 
         return (
             <div className="clock">
                 <div className="date"> { dateString } </div>

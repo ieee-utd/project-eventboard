@@ -1,9 +1,14 @@
 .event-tile-tall {
     display: flex;
     flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    .event-tile {
+        border-radius: 0;
+    }
     .description {
         padding: calc(8rem/12) 1rem;
-        background: #7A8898;
-        color: white;
+        background-color: #F5F5F6;
     }
 }

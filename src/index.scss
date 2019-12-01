@@ -5,10 +5,12 @@
 }
 
 html {
-    font-size: 16pt;
-    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
 }
 
 body {
     margin: 0;
+    background-image: url('data/cover2.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
