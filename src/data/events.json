@@ -1,0 +1,90 @@
+[
+    {
+      "_id": "5de5771c2ecd7f2b468e8b9a",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "mollit nulla cillum irure ut",
+      "desciption": "Exercitation eiusmod esse ullamco nisi do eu excepteur in.",
+      "location": "reprehenderit",
+      "time": "2am - 12pm"
+    },
+    {
+      "_id": "5de5771c893f4fbd5be32976",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "elit duis qui nisi duis",
+      "desciption": "Veniam ullamco aliquip consequat laboris excepteur Lorem exercitation dolore.",
+      "location": "aute",
+      "time": "9am - 12pm"
+    },
+    {
+      "_id": "5de5771ca3599639b9af0d31",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "sunt anim nulla amet labore",
+      "desciption": "Qui veniam commodo mollit ut nulla sint enim duis irure deserunt officia consequat.",
+      "location": "ullamco",
+      "time": "4am - 12pm"
+    },
+    {
+      "_id": "5de5771cf90c7c574af46f73",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "eiusmod ut ad laboris voluptate",
+      "desciption": "Nulla quis aliqua quis labore anim laborum consequat nulla eu veniam sint non ut deserunt.",
+      "location": "in",
+      "time": "6am - 12pm"
+    },
+    {
+      "_id": "5de5771ce7ef7480605311e5",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "ex do commodo reprehenderit deserunt",
+      "desciption": "Occaecat irure nostrud quis occaecat officia consectetur laboris.",
+      "location": "dolore",
+      "time": "2am - 12pm"
+    },
+    {
+      "_id": "5de5771cd7ba7d5d3147c451",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "veniam laborum voluptate reprehenderit culpa",
+      "desciption": "Magna nostrud laboris cillum sit aliquip do officia cillum pariatur ex irure culpa do id.",
+      "location": "qui",
+      "time": "4am - 12pm"
+    },
+    {
+      "_id": "5de5771c8f786a1a47018620",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "ullamco et aliquip enim do",
+      "desciption": "Fugiat quis nulla voluptate do excepteur nulla laborum ullamco nisi ullamco elit aute nulla ipsum.",
+      "location": "laborum",
+      "time": "10am - 12pm"
+    },
+    {
+      "_id": "5de5771cd4fe3e62f4c56f80",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "qui quis aliquip ea reprehenderit",
+      "desciption": "Amet in adipisicing enim voluptate in.",
+      "location": "elit",
+      "time": "7am - 12pm"
+    },
+    {
+      "_id": "5de5771c1ff1bf9add98923e",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "in in nulla voluptate officia",
+      "desciption": "Dolore aute commodo nisi nostrud.",
+      "location": "do",
+      "time": "6am - 12pm"
+    },
+    {
+      "_id": "5de5771c1fc09ed5d13ca89c",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "sint in commodo pariatur dolore",
+      "desciption": "Et dolor laborum duis officia et veniam id consequat.",
+      "location": "qui",
+      "time": "3am - 12pm"
+    },
+    {
+      "_id": "5de5771cc317eda87cd9504e",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/200px-IEEE_logo.svg.png",
+      "title": "aute enim quis cillum amet",
+      "desciption": "Nulla sunt consectetur ea incididunt excepteur consectetur velit.",
+      "location": "laborum",
+      "time": "8am - 12pm"
+    }
+  ]
